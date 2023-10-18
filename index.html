@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior: smooth;">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- favcon -->
+
+    <link  href="IMG_4893.JPG" rel="icon">
+
+    <!-- link css  -->
+
+
+    <link rel="stylesheet" href="portfo.css">
+    <link rel="stylesheet" href="portmediaq.css">
+
+    <title>Diljithportfolio</title>
+
+
+    <!-- email script -->
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("I3fUShEAMmGOF5FHp");
+   })();
+</script>
+    
+</head>
+<body>
+
+
+    <!-- -----FRONT----- -->
+
+
+       <nav id="desk-nav">
+          <div class="logo">Diljith</div>
+          <div>
+            <ul class="nav-link">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+       </nav>
+
+
+       <!-- --------HUMBURBAR--------- -->
+
+
+       <nav id="hambur-nav">
+           <div class="logo">Diljith</div>
+           <div class="hambur-menu">
+             <div class="hambur-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu-links">
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+            <li><a href="#project" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+           </div>
+       </nav>
+
+
+       <!-- --------- PROFILE --------- -->
+
+
+        <section id="profile">
+            <div class="section_pic-container">
+                <img  src="dil.JPG" alt="ney" class="ney">
+            </div>
+            <div class="section_text">
+                <p class="section_text_p1">Heyyh ,,,I'm</p>
+                <h1 class="title">Diljith Lal </h1>
+                <p class="section_text_p2">Frontend Developer</p>
+                <div class="btn-container">
+                    <button class="btn btn-color-2" onclick="window.open()">Download CV</button>
+                    <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+                </div>
+                <div id="socials-container">
+                    <img src="linkdin64px.png" alt="My Linkidin profile" class="icon" onclick="location "/>
+                    <img src="gitub64px.png" alt="My Github profile" class="icon" onclick="location.href='https://github.com/DILJITHLALT'"/>
+                    <img src="insta64.png" alt="My instagram profile" class="icon" onclick="location.href='https://www.instagram.com/dil_0002255/'"/>
+                    <img src="whatsapp-logo-24 - Copy.png" class="icon"onclick="location.href='https://wa.me/9496713272'"><i class='bx bxl-whatsapp'></i></a>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- -----------ABOUT----------- -->
+
+
+          <section id="about">
+             <p class="section_text_p1">Get To Know More</p>
+             <h1 class="title">About Me</h1>
+             <div class="section-container">
+                <div class="section_pic-container">
+                    <img src="IMG_4893.JPG" alt="profile picture" class="about-pic"/>
+                </div>
+                <div class="about-details-container">
+                    <div class="about-containers">
+                        <div class="details-container">
+                            <img src="experience64.png" alt="experience icon" class="icon"/>
+                            <h3>Experience</h3>
+                            <p>Frontend Development</p>
+                        </div>
+                        <div class="details-container">
+                            <img src="education64.png" alt="education icon" class="icon"/>
+                            <h3>Education</h3>
+                            <p>Plus Two<br>B.com. Bachelors Degree</p>
+                        </div>
+                    </div>
+                    <div class="text-container">
+                        <p>I'm frontend Developer.I love studying new technologies.Always give my extra efforts on work</p>
+                    </div>
+                </div>
+             </div>
+             <!-- <img src="arrow64.png" alt="arrow icon" class="icon-arrow" onclick="location.href='./#experience'"/> -->
+          </section>
+
+
+          <!-- ---------expereience--------- -->
+
+
+          <section id="experience">
+              <br><br><p class="section_text_p1">Explore My</p>
+              <h1 class="title">Experience</h1><br>
+              <div class="experience-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <h2 class="experience-sub-titile">Frontend Development</h2><br><br>
+                        <div class="article-container">
+                            <article>
+                                <img src="tick64.png" alt="Experionss-icon" class="icon"/>
+                                <div>
+                                    <h3>HTML</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="tick64.png" alt="Experionss-icon" class="icon"/>
+                                <div>
+                                    <h3>CSS</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="tick64.png" alt="Experionss-icon" class="icon"/>
+                                <div>
+                                    <h3>JAVA SCRIPT</h3>
+                                    <p>Basic</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="tick64.png" alt="Experionss-icon" class="icon"/>
+                                <div>
+                                    <h3>BOOTSTRAP</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <!-- <img src="arrow64.png" alt="arrow icon" class="icon-arrow" onclick="location.href='./#project'"> -->
+          </section>
+
+
+          <!-- PROJECT -->
+
+
+          <section id="project">
+            <p class="section_text_p1">Browse My Recent</p>
+            <h1 class="title">Projects</h1>
+            <br><br><div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container color-container">
+                       <div class="article-container">
+                        <img src="src linkedin1.png" alt="project1" class="project-img"/>
+                      </div>
+                      <h3 class="experience-sub-title project-title">Project One</h3>
+                    </div>
+               <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="Screenshot 2023-10-18 123054.png" alt="project2" class="project-img"/>
+                </div>
+                <h3 class="experience-sub-title project-title">Project Two</h3>
+            </div>
+        </div>             
+        </div>
+        </div>
+        <!-- <img src="arrow64.png" alt="arrow icon" class="icon arrow" onclick="location.href='./#contact'"> -->
+          </section>
+
+
+          <!-- ---------CONTACT--------- -->
+
+
+          <br><br><br><br><br><br><section id="contact">
+            <p class="section_text_p1">Get In Touch</p>
+            <h1 class="title">Contact Me</h1>
+            <div class="contact-info-upper-container">
+                <div class="contact-info-container">
+                    <img src="email64.png" alt="email-icon" class="icon contact-icon email-icon"/>
+                    <input type="text" id="fullname" placeholder=" Your name">
+                    <input type="email" id="email_id" placeholder=" Enter your Email">
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder=" Message"></textarea>
+                    <button class="sub-btn" onclick="sendMail()">Submit</button><br>
+                </div>   
+                <div class="contact-info-container">
+                    <img src="location64.png" alt="location" class="icon "/>
+                    <p>kizhisseri malappuram</p>
+                    <img src="email64.png" alt="email" class="icon "/>
+                    <p>diljithlalt2001@gmail.com</p>
+                    <img src="phone64.png" alt="phone" class="icon "/>
+                    <p>+919496713272</p>
+                </div>      
+            </div>
+        </section> 
+        <br><br><br><br><br><br><br> 
+        <br><br><br>
+        
+        
+          <!-- --------- FOOTER---------- -->
+
+
+            <footer>
+                <nav>
+                <div class="nav-links-container">
+                    <ul class="nav-link last">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#project">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <p>Copyright &#169; 2023 Diljith. All Rights Reserved. </p>
+        </footer>
+
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+          <script src="portscript.js"></script>
+</body>
+</html>
